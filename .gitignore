@@ -1,0 +1,167 @@
+# Node.js
+node_modules/
+
+# Laravel
+/vendor
+/node_modules
+/public/storage
+/public/hot
+/public/css/app.css
+/public/css/app.css.map
+/public/mix-manifest.json
+/public/js/app.js
+/public/js/app.js.map
+/public/js/manifest.js
+/public/js/manifest.js.map
+/public/js/vendor.js
+/public/js/vendor.js.map
+/storage/*.key
+/storage/app/public/*
+/storage/debugbar/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+.env
+.env.*
+Homestead.yaml
+Homestead.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+ENV/
+
+# Java
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# Kotlin
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+
+# C/C++
+*.o
+*.obj
+*.so
+*.exe
+*.dll
+*.dylib
+*.class
+
+# Go
+*.exe
+*.exe~
+*.dll
+*.dylib
+*.test
+
+# PHP
+vendor/
+
+# Laravel
+/vendor
+/storage/*.key
+.env
+.env.*
+
+# Flutter
+build/
+.vscode/
+.idea/
+.gradle/
+flutter/bin/cache/
+*.log
+
+# JavaScript
+*.log
+*.tmp
+.yarn/
+.pnp.*
+/dist
+/build
+/node_modules
+
+# Gradle
+.gradle/
+build/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Eclipse
+*.pydevproject
+.project
+.metadata
+.springBeans
+.sts4-cache
+.apt_generated
+.classpath
+.cproject
+.deployment
+.settings/
+*.launch
+*.wstheme
+*.jardesc
+*.project
+*.wmappmanifest
+*.directory
+.factorypath
+
+# IntelliJ
+*.iml
+*.iws
+.idea/
+out/
+
+# VS Code
+.vscode/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Backup files
+*.bak
+*.swp
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Miscellaneous
+*.tmp
+*.jpg
+*.jpeg
+*.png
