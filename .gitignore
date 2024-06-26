@@ -165,3 +165,6 @@ lerna-debug.log*
 *.jpg
 *.jpeg
 *.png
+
+# chromeExtensionsZ
+chromeExtensions/6-26-2024/config.js

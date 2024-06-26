@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"name": "Text Meaning Lookup",
+	"description": "Looks up the meaning of selected text.",
+	"version": "1.0.1",
+	"background": {
+		"service_worker": "background.js",
+		"type": "module"
+	},
+	"content_scripts": [
+		{
+			"matches": ["http://*/*", "https://*/*"],
+			"js": ["content.js"]
+		}
+	],
+	"permissions": ["clipboardRead", "activeTab"]
+}
