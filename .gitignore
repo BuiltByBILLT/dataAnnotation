@@ -168,3 +168,5 @@ lerna-debug.log*
 
 # chromeExtensionsZ
 chromeExtensions/6-26-2024/config.js
+
+/clones
