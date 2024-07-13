@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>D3.js Scatterplot</title>
+		<script src="node_modules/d3/dist/d3.min.js"></script>
+	</head>
+
+	<body>
+		<select id="dropdown">
+			<option value="All">All</option>
+			<option value="Gasoline">Gasoline</option>
+			<option value="Diesel">Diesel</option>
+			<option value="Electricity">Electricity</option>
+		</select>
+
+		<select id="second-dropdown">
+			<option value="All">All</option>
+			<option value="Make1">Make1</option>
+			<option value="Make2">Make2</option>
+			<option value="Make3">Make3</option>
+		</select>
+
+		<script>
+			// prettier-ignore
+			function getData() {
+                return [
+                "Make1", "Gasoline", 4, 30, 20,
+                "Make1", "Diesel", 6, 25, 18,
+                "Make1", "Electricity", 0, 100, 90,
+                "Make2", "Gasoline", 8, 20, 15,
+                "Make2", "Diesel", 4, 40, 35,
+                "Make2", "Electricity", 0, 110, 95,
+                "Make3", "Gasoline", 6, 28, 22,
+                "Make3", "Diesel", 8, 22, 16,
+                "Make3", "Electricity", 0, 105, 92,
+                "Make1", "Gasoline", 6, 32, 25,
+                "Make1", "Diesel", 6, 35, 27,
+                "Make1", "Electricity", 0, 115, 100,
+                "Make2", "Gasoline", 4, 30, 21,
+                "Make2", "Diesel", 4, 27, 19,
+                "Make2", "Electricity", 0, 98, 88,
+                "Make3", "Gasoline", 8, 22, 17,
+                "Make3", "Diesel", 4, 42, 36,
+                "Make3", "Electricity", 0, 112, 97,
+                "Make1", "Gasoline", 6, 29, 23,
+                "Make1", "Diesel", 6, 26, 20,
+                "Make1", "Electricity", 0, 103, 91,
+                "Make2", "Gasoline", 4, 33, 26,
+                "Make2", "Diesel", 8, 34, 28,
+                "Make2", "Electricity", 0, 118, 102,
+                "Make3", "Gasoline", 4, 31, 22,
+                "Make3", "Diesel", 6, 24, 18,
+                "Make3", "Electricity", 0, 99, 89,
+                "Make1", "Gasoline", 6, 23, 18,
+                "Make1", "Diesel", 4, 41, 34,
+                "Make1", "Electricity", 0, 114, 98
+                ];
+  }
+		</script>
+
+		<script src="main-B.js"></script>
+	</body>
+</html>
