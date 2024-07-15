@@ -1,0 +1,6 @@
+1
+5
+4
+A B C D E
+AB BC CD DE
+A
